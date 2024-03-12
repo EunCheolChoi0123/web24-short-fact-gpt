@@ -3,11 +3,11 @@
 The repository contains scripts and data used in the paper [FACT-GPT: Fact-Checking Augmentation via Claim Matching with LLMs](https://doi.org/10.1145/3589335.3651504).
 
 Below are short descriptions for each of the scripts and files:
-1. Script for synthetic tweet generation, as described in section 3.2.1.  
-2. Script for fine-tuning gpt-3.5-turbo, as described in section 3.3.2.  
-3. Script for prompting LLMs, as described in section 3.3.1. and Figure 4.  
-4. Script for fine-tuning Llama models, as described in section 3.3.2.  
-5&6. Script for performance evaluation, as described in section 3.3.3.
+1. Script for synthetic tweet generation, as described in section 3.2.1.
+2. Script for fine-tuning gpt-3.5-turbo, as described in section 3.3.2.
+3. Script for prompting LLMs, as described in section 3.3.1. and Figure 4.
+4. Script for fine-tuning Llama models, as described in section 3.3.2.
+5. & 6. Script for performance evaluation, as described in section 3.3.3.
 
 Replace [LLaMA-Efficient-Tuning](https://github.com/hiyouga/LLaMA-Factory)\src\llmtuner\extras\template.py file with one in this repository to use the same format for system, input, and output prompt in the paper.
 
