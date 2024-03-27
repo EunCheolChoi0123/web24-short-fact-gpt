@@ -9,7 +9,7 @@ Below are short descriptions for each of the scripts and files:
 4. Script for fine-tuning Llama models, as described in section 3.3.2.
 5. & 6. Script for performance evaluation, as described in section 3.3.3.
 
-We used [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) v0.1.8, formerly named as LLaMa-Efficient-Tuning. Replace [LLaMA-Efficient-Tuning](https://github.com/hiyouga/LLaMA-Factory)\src\llmtuner\extras\template.py file with the one in this repository to use the same format for system, input, and output prompts in our paper.
+We used [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) v0.1.8, formerly named as LLaMa-Efficient-Tuning. Replace LLaMA-Factory\src\llmtuner\extras\template.py file with the one in this repository to use the same format for system, input, and output prompts in our paper.
 
 As for Twitter data used for the test set, we used a dataset collected, documented, and managed by [Chen et al., 2020](https://github.com/echen102/COVID-19-TweetIDs). To comply with Twitter’s [Terms of Service](https://developer.twitter.com/en/developer-terms/agreement-and-policy), we are only publicly releasing the Tweet IDs of the collected Tweets. The data is released for non-commercial research use.
 
